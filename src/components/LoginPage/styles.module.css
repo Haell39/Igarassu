@@ -1,0 +1,79 @@
+.container {
+    background-color: #e0f2e9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header {
+    position: absolute;
+    top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 150px;
+}
+
+.backButton {
+    background-color: var(--color-green-300);
+    color: var(--color-white-300);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.loginBox {
+    background-color: #c8e6c9;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.loginBox h2 {
+    color: var(--color-green-500);
+    margin-bottom: 10px;
+}
+
+.loginBox p {
+    color: var(--color-green-500);
+    margin-bottom: 20px;
+}
+
+.loginBox input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.forgotPassword {
+    font-size: 12px;
+    color: var(--color-green-500);
+    margin: 10px 0;
+}
+
+.loginBox button {
+    background-color: var(--color-green-300);
+    color: var(--color-white-300);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.helpText {
+    color: var(--color-green-500);
+    margin-top: 20px;
+}

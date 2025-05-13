@@ -1,24 +1,33 @@
-# Logs
-logs
-*.log
+# node modules
+node_modules/
+
+# build output
+dist/
+
+# Vite cache
+.vite/
+
+# local env files
+.env
+.env.*.local
+
+# log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# OS-specific
 .DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Optional: ignoring coverage if você usar testes
+coverage/
